@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learnarhome/screens/screen2.dart';
-import 'package:learnarhome/screens/screen3.dart';
+import 'package:learnarhome/screens/screen4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Screen3(),
+      home:Screen4(),
     );
   }
 }
